@@ -140,6 +140,10 @@ body {
 	background-color: #6f6f6f;
 }
 
+.controls__item:active::before {
+	transform: scale(0.8);
+}
+
 /*  Label changing  */
 
 #control_1:checked ~ .controls [for="control_1"]::before,

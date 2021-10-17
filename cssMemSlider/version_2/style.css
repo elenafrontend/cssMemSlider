@@ -129,7 +129,7 @@ body {
 	border-radius: 50%;
 	border: 0.1rem solid #cccccc;
 	background-color: #cccccc;
-	transition: 0.5s;
+	transition: 0.2s;
 }
 
 .controls__item:hover {
@@ -139,6 +139,10 @@ body {
 .controls__item:hover::before {
 	border-color: #6f6f6f;
 	background-color: #6f6f6f;
+}
+
+.controls__item:active::before {
+	transform: scale(0.8);
 }
 
 /*  Label changing  */
