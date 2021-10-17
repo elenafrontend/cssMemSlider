@@ -186,6 +186,13 @@ body {
 	margin-left: -75%;
 }
 
+#control_1:checked ~ .slider__caption .slider__caption-item:nth-child(1),
+#control_2:checked ~ .slider__caption .slider__caption-item:nth-child(2),
+#control_3:checked ~ .slider__caption .slider__caption-item:nth-child(3),
+#control_4:checked ~ .slider__caption .slider__caption-item:nth-child(4) {
+	opacity: 1;
+}
+
 
 /*  Mobile */
 @media screen and (max-width: 640px) {
